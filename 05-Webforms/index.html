@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <style>
+        .container {
+            width: 400;
+            margin: 0 auto;
+        }
+        .form-row {
+            margin-bottom: 10px;
+        }
+        .form-row label {
+            display: inline-block;
+            width: 200px;
+        }
+        .buttons {
+            text-align: center;
+        }
+    </style>
+
+    <div class="container">
+        <form action="" method="post">
+            <div class="form-row">
+                <label for="">Повне ім'я</label>
+                <input type="text" name="Повне ім'я"required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="text" name="Email" required>
+            </div>
+
+            <div class="form-row">
+                <label for="">Пароль</label>
+                <input type="password">
+            </div>
+
+             <div class="form-row">
+                <label for="password">Пароль ще раз</label>
+                <input type="password">
+            </div>
+            <br>
+            <span class="fake_lbl">Стать</span>
+            
+            <label>
+                <input type="radio" name="gender" value="Чоловіча" checked> Чоловіча
+            </label>
+             <label>
+                <input type="radio" name="gender" value="Жіноча" checked> Жіноча
+            </label>
+            <br>
+
+
+            <div class="form-row">
+                <label for="age">Вік:</label>
+                <input type="number" id="age" name="age">
+            </div>
+            
+            <label for="course">Курс</label>
+            
+                <select id="course" name="course">
+                    <option value="course">Вибрати курс</option>
+                    <option value="1">1 курс</option>
+                    <option value="2">2 курс</option>
+                    <option value="3">3 курс</option>
+                </select>
+
+                
+                <label for="address">Повна адреса</label>
+                <input type="text" id="address" name="address" placeholder="Країна, ругіон, місто/сулище, вулиця">
+                
+
+
+                
+                
+                
+            
+                
+
+            </div>
+
+                <div class="buttons">
+                    <button type="reset">Clear rorm</button>
+                    <button type="submit">Log In</button>
+                </div>
+                
+               
+            </div>
+
+            
+        </form>
+    </div>
+</body>
+</html>

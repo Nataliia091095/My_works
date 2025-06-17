@@ -78,10 +78,20 @@ body {
             color: $secondary-color;
             border-color: $secondary-color;
         }
-    }
+
+     }
+
+     &.btn-sing {
+        display: flex;
+        padding: 12px 40px;
+        margin-top: 30px;
+        border: 4px;
+
+     }
 }
 
 
+        
 header {
     padding: 17px;
 
@@ -136,29 +146,13 @@ a {
 .text-block h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    line-height: 3.375rem;
 }
 
 .text-block h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
     color: $text-color;
-
-}
-
-.sing-up {
-    background-color: $primary-color;
-    border: none;
-    padding: 12px 40px;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 4px;
-    font-weight: 600;
-    margin-top: 30px;
-    transition: all .2s cac ease-in-out;
-}
-
-.sing-up {
-    background-color: $primary-color;
 }
 
 .images img {

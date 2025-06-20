@@ -79,19 +79,24 @@ body {
             border-color: $secondary-color;
         }
 
-     }
+    }
 
-     &.btn-sing {
+    &.btn-sing {
         display: flex;
         padding: 12px 40px;
         margin-top: 30px;
         border: 4px;
 
-     }
+    }
+
+    &.btn-naw {
+        padding: 12px 40px;
+
+    }
 }
 
 
-        
+
 header {
     padding: 17px;
 
@@ -160,3 +165,93 @@ a {
     height: 495px;
 }
 
+
+footer {
+    border-top: 1px solid #D6E0EB;
+    padding: 70px 0px;
+
+}
+
+
+.features-section {
+    background-image: url(../images/bg.svg);
+    padding: 0px 105px 90px 105px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.features-section h2 {
+    font-size: 2.25rem;
+    padding-bottom: 50px;
+    color: $text-color;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.list-card {
+    display: flex;
+    padding: 0 15px 60px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1200px 270px;
+    gap: 30px;
+}
+
+
+
+.featuees-card h3 {
+    font-size: 1.375rem;
+    color: $text-color;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+
+.featuees-card img {
+    padding-bottom: 30px
+}
+
+.features-section .btn {
+    padding: 12px 40px;
+    display: block;
+    margin: auto
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: $text-color;
+
+
+    ul {
+        padding-top: 30px;
+
+        li {
+            margin-bottom: 12px;
+
+        }
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input {
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    width: 340px;
+    height: 50px;
+}

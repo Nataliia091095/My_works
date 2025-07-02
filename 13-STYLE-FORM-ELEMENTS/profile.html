@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="assets/plagins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="block">
+            <h1>Profile</h1>
+
+            <div class="avatar-row">
+                <img src="assets/images/Image.jpg" alt="User Avatar" class="avatar-img" />
+
+                <div class="upload">
+                    <input type="file" id="custom-upload">
+                    <label for="custom-upload" class="custom"><img src="assets/images/Camera.svg" alt=""></label>
+                    <span>Up to 1 MB (300x300 px)</span>
+                </div>
+                <a href="#" id="trash"><img src="assets/images/Trash.svg" alt="trash"></a>
+
+
+
+
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select id="country">
+                                <option>Select</option>
+                                <option>USA</option>
+                                <option>Ukraine</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="zip">Zip Code</label>
+                            <input type="text" id="zip" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" />
+                        </div>
+                    </div>
+
+                    <button class="btn">Update</button>
+                </form>
+            </div>
+        </div>
+
+</body>
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/plagins/select2/js/select2.full.min.js"></script>
+<script>
+    $(function () {
+        $('select').select2({
+            minimumResultsForSearch: Infinity
+        })
+    })
+</script>
+
+</html>

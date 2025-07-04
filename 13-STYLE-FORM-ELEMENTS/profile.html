@@ -13,13 +13,14 @@
 <body>
     <div class="container">
         <div class="block">
+            <form method="post" action="#" enctype="multipart/form-data">
             <h1>Profile</h1>
 
             <div class="avatar-row">
                 <img src="assets/images/Image.jpg" alt="User Avatar" class="avatar-img" />
 
                 <div class="upload">
-                    <input type="file" id="custom-upload">
+                    <input type="file" id="custom-upload" name="custom-upload">
                     <label for="custom-upload" class="custom"><img src="assets/images/Camera.svg" alt=""></label>
                     <span class="tresh">Up to 1 MB (300x300 px)</span>
                 </div>
@@ -59,7 +60,9 @@
                             <input type="tel" id="phone" name="phone" required/>
                         </div>
                     </div>
+                    <div class="button-wrapper">
                     <button class="btn-circle" type="submit">Update</button>
+                    </div>
                 </form>
             </div>
         </div>

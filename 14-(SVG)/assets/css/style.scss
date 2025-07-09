@@ -39,6 +39,13 @@ li {
     margin-bottom: 15px;
 }
 
+.service__item:hover {
+  --icon-color-1: #d1e7ff;
+  --icon-color-2: #e8f3ff;
+  --icon-color-3: #b9dcff;
+  --icon-color-4: #007ffc;
+  --color-border-card: #3db370;
+}
 .service_title {
     font-family: "Nunito Sans", sans-serif;
     color: #16133d;
@@ -84,8 +91,19 @@ li {
     border-radius: 16px;
     border: 1px solid #e5eaf4;
     margin-bottom: 30px;
+
 }
 
+
+
+
+&:hover .icon use.default {
+    opacity: 0;
+}
+
+&:hover .icon use.hover-active {
+    opacity: 1;
+}
 
 
 

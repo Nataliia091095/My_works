@@ -40,12 +40,13 @@ li {
 }
 
 .service__item:hover {
-  --icon-color-1: #d1e7ff;
-  --icon-color-2: #e8f3ff;
-  --icon-color-3: #b9dcff;
-  --icon-color-4: #007ffc;
-  --color-border-card: #3db370;
+    --icon-color-1: #d1e7ff;
+    --icon-color-2: #e8f3ff;
+    --icon-color-3: #b9dcff;
+    --icon-color-4: #007ffc;
+    --color-border-card: #3db370;
 }
+
 .service_title {
     font-family: "Nunito Sans", sans-serif;
     color: #16133d;
@@ -84,6 +85,7 @@ li {
 
 .service_icon {
     width: 64px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,18 +96,17 @@ li {
 
 }
 
-
-
-
-&:hover .icon use.default {
-    opacity: 0;
+.service_icon svg use.hover-activ {
+    display: none;
 }
 
-&:hover .icon use.hover-active {
-    opacity: 1;
+.service_item:hover .service_icon svg use.default {
+    display: none;
 }
 
-
+.service_item:hover .service_icon svg use.hover-activ {
+    display: inline;
+}
 
 .service_subject {
     margin-bottom: 15px;

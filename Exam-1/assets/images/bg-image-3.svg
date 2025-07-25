@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="65"
+   height="51"
+   viewBox="0 0 65 51"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="bg-image-3.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.54902"
+     inkscape:cx="32.51487"
+     inkscape:cy="25.5"
+     inkscape:window-width="1440"
+     inkscape:window-height="740"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <ellipse
+     cx="32.5222"
+     cy="25.427"
+     rx="34.0274"
+     ry="20.1071"
+     transform="rotate(150 32.5222 25.427)"
+     stroke="white"
+     stroke-width="1.5"
+     id="ellipse1" />
+</svg>

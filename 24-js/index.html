@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #6C63FF, #8A74FF);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            opacity: 0.9;
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <div class="btn-group">
+            <button type="button" id="btn-1" class="btn btn-1">1</button>
+            <button type="button" id="btn-2" class="btn btn-2">2</button>
+            <button type="button" id="btn-3" class="btn btn-3">3</button>
+            <button type="button" id="btn-4" class="btn btn-4">4</button>
+            <button type="button" id="btn-5" class="btn btn-5">5</button>
+            <button type="button" id="btn-6" class="btn btn-6">6</button>
+        </div>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

@@ -83,7 +83,7 @@ document.getElementById('btn-5').onclick = function () {
 
 document.getElementById('btn-6').onclick = function () {
   var input = prompt('Введіть суму вкладу в банк (грн)');
-  if (input === null) return; // Користувач скасував
+  if (input === null) return; // Користувач скасував 
 
   var deposit = parseFloat(input);
 

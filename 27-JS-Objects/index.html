@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    } 
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    .output {
+      margin-top: 10px;
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 10px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+
+  <!-- Мінімум -->
+  <section>
+    <h2> Мінімум — Автомобіль</h2>
+    <button onclick="car.showInfo()">Показати інформацію</button>
+    <button onclick="addDriver()">Додати водія</button>
+    <button onclick="checkDriver()">Перевірити водія</button>
+    <button onclick="calculateTrip()">Розрахувати поїздку</button>
+    <div id="output-min" class="output"></div>
+  </section>
+
+  <!-- Норма -->
+  <section>
+    <h2> Норма — Час</h2>
+    <button onclick="time.showTime()">Показати час</button>
+    <button onclick="addSeconds()">Додати секунди</button>
+    <button onclick="addMinutes()">Додати хвилини</button>
+    <button onclick="addHours()">Додати години</button>
+    <div id="output-norm" class="output"></div>
+  </section>
+
+  <!-- Максимум -->
+  <section>
+    <h2> Максимум — Звичайний дріб</h2>
+    <button onclick="performOperation('add')">Додавання</button>
+    <button onclick="performOperation('subtract')">Віднімання</button>
+    <button onclick="performOperation('multiply')">Множення</button>
+    <button onclick="performOperation('divide')">Ділення</button>
+    <button onclick="reduceFraction()">Скоротити перший дріб</button>
+    <div id="output-max" class="output"></div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
